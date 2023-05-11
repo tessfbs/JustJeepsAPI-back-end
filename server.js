@@ -22,6 +22,14 @@ app.use(BodyParser.urlencoded({ extended: false }));
 app.use(BodyParser.json());
 app.use(Express.static('public'));
 
+
+// Sample GET route
+app.get('/', (req, res) =>
+	res.json({
+		message: 'Seems to work!',
+	})
+);
+
 // Sample GET route
 app.get('/api/data', (req, res) =>
 	res.json({
