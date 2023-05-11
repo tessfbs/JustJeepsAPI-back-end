@@ -1,0 +1,39 @@
+{
+  "name": "express-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed-hard-code": "node prisma/seeds/seed-hard-code.js",
+    "seed-po": "node prisma/seeds/seed-individual/seed-po.js",
+    "dev": "./node_modules/.bin/nodemon -L --ignore public/ server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarah-zhan/helper.git"
+  },
+  "author": "Tess",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarah-zhan/helper/issues"
+  },
+  "homepage": "https://github.com/sarah-zhan/helper#readme",
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@prisma/client": "^4.12.0",
+    "axios": "^1.3.5",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "prisma": "^4.12.0",
+    "xlsx": "^0.18.5",
+    "xml2js": "^0.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
