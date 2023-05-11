@@ -9,6 +9,8 @@
     "seed-hard-code": "node prisma/seeds/seed-hard-code.js",
     "seed-po": "node prisma/seeds/seed-individual/seed-po.js",
     "seed-omix": "node prisma/seeds/seed-individual/seed-omix.js",
+    "seed-quadratec": "node prisma/seeds/seed-individual/seed-quadratec.js",
+    "seed-allProducts": "node prisma/seeds/seed-individual/seed-allProducts.js",
     "dev": "./node_modules/.bin/nodemon -L --ignore public/ server.js"
   },
   "repository": {
