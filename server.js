@@ -70,7 +70,7 @@ app.get('/top5skus', async (req, res) => {
 		res.json(top5SkusWithProducts);
 	} catch (error) {
 		console.error(error);
-		res.status(500).json({ message: 'Internal server error' });
+		res.status(500).json({ message: `${error}` });
 	}
 });
 
