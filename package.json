@@ -8,6 +8,7 @@
     "start": "node server.js",
     "seed-hard-code": "node prisma/seeds/seed-hard-code.js",
     "seed-po": "node prisma/seeds/seed-individual/seed-po.js",
+    "seed-omix": "node prisma/seeds/seed-individual/seed-omix.js",
     "dev": "./node_modules/.bin/nodemon -L --ignore public/ server.js"
   },
   "repository": {

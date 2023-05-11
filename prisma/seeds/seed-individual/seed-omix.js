@@ -36,7 +36,7 @@ const seedOmix = async () => {
           },
           data: {
             vendor_sku: data["Part Number"], // Update with new vendor_sku
-            vendor_cost: data["Quoted Price"], // Update with new vendor_cost
+            vendor_cost: data["Quoted Price"]*1.45, // Update with new vendor_cost
             // Add any other fields that you want to update
           },
         });
@@ -68,7 +68,7 @@ const seedOmix = async () => {
         product_sku: product.sku, // Updated with the correct product SKU',
         vendor_id: 3, // Updated with the correct vendor ID
         vendor_sku: data["Part Number"], // Extracted from API response
-        vendor_cost: data["Quoted Price"], // Extracted from API response
+        vendor_cost: data["Quoted Price"]*1.45, // Extracted from API response
         // Add any other fields that you want to create
       };
 
