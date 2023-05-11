@@ -61,6 +61,8 @@ model Product {
   meyer_code         String?
   keystone_code      String?
   omix_code          String?
+  quadratec_code     String?
+  rough_country_code String?
   vendors            String?
   brand_name         String?
   image              String?

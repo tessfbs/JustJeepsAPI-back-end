@@ -12,6 +12,8 @@ module.exports = [
     vendors: "Meyers, Keystone",
     keystone_code: "ACA",
     meyer_code: "ACA",
+    quadratec_code: "Accuair",
+   
   },
   {
     jj_prefix: "ACU",
@@ -19,6 +21,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "AccuPart",
   },
   {
     jj_prefix: "ADD",
@@ -26,6 +29,8 @@ module.exports = [
     vendors: "Keystone, Meyers, Quadratec",
     keystone_code: "ADD",
     meyer_code: "ADD",
+    quadratec_code: "",
+
   },
   {
     jj_prefix: "ADV",
@@ -33,6 +38,7 @@ module.exports = [
     vendors: "Meyers, Keystone",
     keystone_code: "A25",
     meyer_code: "AAD",
+    quadratec_code: "Advance Adapters",
   },
   {
     jj_prefix: "AEM",
@@ -40,6 +46,7 @@ module.exports = [
     vendors: "Keystone, Quadratec",
     keystone_code: "A18",
     meyer_code: "",
+    quadratec_code: "AEM Filters",
   },
   {
     jj_prefix: "AFE",
@@ -47,6 +54,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "A15",
     meyer_code: "AFE",
+    quadratec_code: "aFe Power",
   },
   {
     jj_prefix: "AID",
@@ -54,6 +62,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "A86",
     meyer_code: "AIR",
+    quadratec_code: "AIRAID",
   },
   {
     jj_prefix: "ABZ",
@@ -61,6 +70,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "ABZ",
     meyer_code: "ABZ",
+    quadratec_code: "AirBedz",
   },
   {
     jj_prefix: "AIR",
@@ -68,6 +78,7 @@ module.exports = [
     vendors: "Keystone, Quadratec",
     keystone_code: "AIR",
     meyer_code: "",
+    quadratec_code: "Air Design",
   },
   {
     jj_prefix: "AJT",
@@ -75,6 +86,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "AJT Design",
   },
   {
     jj_prefix: "ALY",
@@ -82,6 +94,7 @@ module.exports = [
     vendors: "Omix-ADA",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Alloy USA",
   },
   {
     jj_prefix: "ALP",
@@ -89,13 +102,15 @@ module.exports = [
     vendors: "Gentecdirect",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Alpine",
   },
   {
     jj_prefix: "AEV",
     brand_name: "American Expedition Vehicles (MAP)",
-    vendors: "AEV",
+    vendors: "AEV,Qudratec (MAP)",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "AEV",
   },
   {
     jj_prefix: "AO",
@@ -1699,6 +1714,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Quadratec",
   },
   {
     jj_prefix: "QTC",
@@ -1706,6 +1722,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "QuadraTop",
   },
   {
     jj_prefix: "QKE",
@@ -1713,6 +1730,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "QKE",
     meyer_code: "QAK",
+    quadratec_code: "Quake LED",
   },
   {
     jj_prefix: "R",

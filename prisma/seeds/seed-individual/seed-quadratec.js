@@ -1,12 +1,12 @@
 const { PrismaClient } = require("@prisma/client");
 const prisma = new PrismaClient();
-const omixCost = require("../api-calls/omix-excel.js");
+const quadratecCost = require("../api-calls/quadratec-excel.js");
 
-// // seed Omix products
-const seedOmix = async () => {
+// // seed Quadratec products
+const seedQuadratec = async () => {
   try {
-    // Call OmixAPI and get the processed responses
-    const vendorProductsData = await omixCost();
+    // Call QuadratecAPI and get the processed responses
+    const vendorProductsData = await quadratecCost();
     let vendorProductCreatedCount = 0;
     let vendorProductUpdatedCount = 0;
 
@@ -17,7 +17,7 @@ const seedOmix = async () => {
       // Check if a vendor product with the same vendor_sku already exists
       const existingCompetitorProduct = await prisma.vendorProduct.findFirst({
         where: {
-          vendor_sku: data["Part Number"], // Update: Access 'Part Number' key from data object
+          vendor_sku: data.quadratec_code, // Update: Access 'Part Number' key from data object
         },
       });
 
@@ -35,8 +35,8 @@ const seedOmix = async () => {
             id: existingCompetitorProduct.id, // assuming there's an 'id' field as the primary key
           },
           data: {
-            vendor_sku: data["Part Number"], // Update with new vendor_sku
-            vendor_cost: data["Quoted Price"]*1.45, // Update with new vendor_cost
+            vendor_sku: data.quadratec_code, // Update with new vendor_sku
+            vendor_cost: data.wholesalePrice * 1.45, // Update with new vendor_cost
             // Add any other fields that you want to update
           },
         });
@@ -51,14 +51,14 @@ const seedOmix = async () => {
       let product; // Update: Declare product variable here
       product = await prisma.product.findFirst({
         where: {
-          omix_code: data["Part Number"], // Update: Access 'Part Number' key from data object
+          quadratec_code: data.quadratec_code, // Update: Access 'Part Number' key from data object
         },
       });
       // console.log("product", product);
 
       if (!product) {
         // console.error(
-        //   `Product not found for omix_code: ${data['Part Number']}`
+        //   `Product not found for Quadratec_code: ${data['Part Number']}`
         // );
         continue;
       }
@@ -66,11 +66,11 @@ const seedOmix = async () => {
       // Update the data with the retrieved product_sku and vendor_id
       const vendorProductData = {
         product_sku: product.sku, // Updated with the correct product SKU',
-        vendor_id: 3, // Updated with the correct vendor ID
-        vendor_sku: data["Part Number"], // Extracted from API response
+        vendor_id: 4, // Updated with the correct vendor ID
+        vendor_sku: data.quadratec_code, // Extracted from API response
         //2 decimal places for vendor_cost
-        vendor_cost: data["Quoted Price"]*1.45, // Extracted from API response
-        // vendor_cost: data["Quoted Price"]*1.45, // Extracted from API response
+        vendor_cost: data.wholesalePrice * 1.45, // Extracted from API response
+        // vendor_cost: data.wholesalePrice*1.45, // Extracted from API response
         // Add any other fields that you want to create
       };
 
@@ -81,18 +81,18 @@ const seedOmix = async () => {
       vendorProductCreatedCount++;
     }
 
-    // console.log("Vendor products from Omix seeded successfully!");
+    // console.log("Vendor products from Quadratec seeded successfully!");
     // console.log(`Total vendor products created: ${vendorProductCreatedCount}`);
     // console.log(`Total vendor products updated: ${vendorProductUpdatedCount}`);
-    console.log(`Vendor products from Omix seeded successfully! 
+    console.log(`Vendor products from Quadratec seeded successfully! 
       Total vendor products created: ${vendorProductCreatedCount}, 
       Total vendor products updated: ${vendorProductUpdatedCount}`);
   } catch (error) {
-    console.error("Error seeding vendor products from Omix:", error);
+    console.error("Error seeding vendor products from Quadratec:", error);
   } finally {
     await prisma.$disconnect();
   }
 };
 
-// seedOmix();
-module.exports = seedOmix;
+seedQuadratec();
+module.exports = seedQuadratec;

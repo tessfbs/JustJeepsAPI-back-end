@@ -48,6 +48,13 @@ const seedAllProducts = async () => {
           ? vendorData.keystone_code + searchable_sku.replace(/-/g, "")
           : "";
 
+      //Generate quadratec_code based on vendor data
+      const quadratecCode =
+        vendorData && vendorData.quadratec_code
+          ? vendorData.quadratec_code + searchable_sku
+          : "";
+      console.log("quadratecCode", quadratecCode);
+
       //Generate brand_name based on vendor data
       const brandName = vendorData ? vendorData.brand_name : "";
 
@@ -72,7 +79,7 @@ const seedAllProducts = async () => {
           return acc;
         }, "");
 
-        console.log("url_path", url_path);
+      // console.log("url_path", url_path);
 
       // console.log("check sku", sku);
       //console.log the product when sku is undefined
@@ -98,6 +105,7 @@ const seedAllProducts = async () => {
             jj_prefix: jjPrefix,
             meyer_code: meyerCode,
             keystone_code: keystoneCode,
+            quadratec_code: quadratecCode,
             omix_code:
               jjPrefix === "OA" || jjPrefix === "ALY" || jjPrefix === "RR"
                 ? searchable_sku
@@ -124,7 +132,7 @@ const seedAllProducts = async () => {
             sku,
             status,
             name,
-            
+
             price,
             weight,
             searchableSku,
@@ -132,6 +140,7 @@ const seedAllProducts = async () => {
             jj_prefix: jjPrefix,
             meyer_code: meyerCode,
             keystone_code: keystoneCode,
+            quadratec_code: quadratecCode,
             omix_code:
               jjPrefix === "OA" || jjPrefix === "ALY" || jjPrefix === "RR"
                 ? searchable_sku
@@ -165,4 +174,4 @@ const seedAllProducts = async () => {
 
 module.exports = seedAllProducts;
 
-// seedAllProducts();
+seedAllProducts();
