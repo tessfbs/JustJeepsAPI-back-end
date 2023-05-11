@@ -68,7 +68,9 @@ const seedOmix = async () => {
         product_sku: product.sku, // Updated with the correct product SKU',
         vendor_id: 3, // Updated with the correct vendor ID
         vendor_sku: data["Part Number"], // Extracted from API response
+        //2 decimal places for vendor_cost
         vendor_cost: data["Quoted Price"]*1.45, // Extracted from API response
+        // vendor_cost: data["Quoted Price"]*1.45, // Extracted from API response
         // Add any other fields that you want to create
       };
 
