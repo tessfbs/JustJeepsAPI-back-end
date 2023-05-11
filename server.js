@@ -33,7 +33,7 @@ app.get('/', (req, res) =>
 // Sample GET route
 app.get('/api/data', (req, res) =>
 	res.json({
-		message: 'Seems to work!',
+		message: '/api/data route works!',
 	})
 );
 

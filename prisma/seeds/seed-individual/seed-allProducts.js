@@ -165,4 +165,4 @@ const seedAllProducts = async () => {
 
 module.exports = seedAllProducts;
 
-seedAllProducts();
+// seedAllProducts();

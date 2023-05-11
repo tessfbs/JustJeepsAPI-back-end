@@ -52,6 +52,6 @@ const omixCost = () => {
   return finalResults;
 };
 
-omixCost();
+// omixCost();
 
 module.exports = omixCost;
