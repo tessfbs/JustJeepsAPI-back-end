@@ -130,5 +130,5 @@ const allKeystoneSeeds = async (numParts) => {
 
 module.exports = allKeystoneSeeds;
 
-// allKeystoneSeeds(2000);
+allKeystoneSeeds(2000);
 
