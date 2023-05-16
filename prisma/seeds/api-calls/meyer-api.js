@@ -78,7 +78,7 @@ const MeyerCost = async () => {
       }
       console.log(`Chunk ${chunkIndex} completed.`);
       // Add a delay of 60 seconds before calling the next chunk
-      await new Promise((resolve) => setTimeout(resolve, 60000));
+      await new Promise((resolve) => setTimeout(resolve, 20000));
 
       return responses;
     };
