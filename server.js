@@ -13,6 +13,7 @@ const prisma = new PrismaClient({
   },
 });
 const seedOrders = require('./prisma/seeds/seed-individual/seed-orders.js');
+const quadratecProducts = require('./prisma/seeds/api-calls/quadratec-excel.js');
 
 // Use cors middleware
 app.use(cors());
@@ -36,6 +37,17 @@ app.get('/api/data', (req, res) =>
 		message: '/api/data route works!',
 	})
 );
+
+// Route for getting all Quadratec products
+app.get('/api/quadratec', async (req, res) => {
+	try {
+		const products = await quadratecProducts();
+		res.json(products);
+	} catch (error) {
+		res.status(500).json({ error: 'Failed to fetch products' });
+	}
+});
+
 
 // Route for getting top 5 products by qty_ordered
 app.get('/top5skus', async (req, res) => {

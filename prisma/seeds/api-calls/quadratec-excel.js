@@ -26,18 +26,42 @@ const quadratecCost = () => {
   const jsonData = XLSX.utils.sheet_to_json(sheet, { header: customHeader });
 
   // Step 3: Access JSON Data
-  const finalResults = jsonData
-    .slice(1)
-    .map((obj) => {
-      return {
-        "MPN": obj["MPN"].toString(),
-        "brand": obj["Brand"],
-        "wholesalePrice": obj["Wholesale Price"],
-        "retailPrice": obj["Retail Price"],
-        "quadratec_code": obj["Brand"].toString() + obj["MPN"].toString()
+  const finalResults = jsonData.slice(1).map((obj) => {
+    let quadratecCode;
+    if (
+      obj["Brand"] === "Quadratec" ||
+      obj["Brand"] === "QuadraTop" ||
+      obj["Brand"] === "TACTIK" ||
+      obj["Brand"] === "Tecstyle" ||
+      obj["Brand"] === "Diver Down" ||
+      obj["Brand"] === "RES-Q" ||
+      obj["Brand"] === "Lynx"
+    ) {
+      quadratecCode = obj["Brand"].toString() + obj["Quadratec PN"].toString();
+    } else {
+      quadratecCode = obj["Brand"].toString() + obj["MPN"].toString();
+    }
+    return {
+      MPN: obj["MPN"].toString(),
+      brand: obj["Brand"],
+      wholesalePrice: obj["Wholesale Price"],
+      retailPrice: obj["Retail Price"],
+      quadratec_code: quadratecCode,
+    };
+  });
 
-      };
-    });
+  // const finalResults = jsonData
+  //   .slice(1)
+  //   .map((obj) => {
+  //     return {
+  //       "MPN": obj["MPN"].toString(),
+  //       "brand": obj["Brand"],
+  //       "wholesalePrice": obj["Wholesale Price"],
+  //       "retailPrice": obj["Retail Price"],
+  //       "quadratec_code": obj["Brand"].toString() + obj["MPN"].toString()
+
+  //     };
+  //   });
   console.log(finalResults);
   return finalResults;
 };

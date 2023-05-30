@@ -12,10 +12,10 @@ const MeyerCost = async () => {
         meyer_code: {
           not: "", // Exclude results where meyer_code is empty
         },
-        brand_name: {
-          // in:[ "Napier Sportz","N-Fab", "NGK", "NOCO", "ODYSSEY Battery", "Old Man Emu","Optima Batteries", "Oracle Lighting", "Smittybilt", "AMP Research"]
-          // in: ["ARB"],
-        },
+        // brand_name: {
+        //   // in:[ "Napier Sportz","N-Fab", "NGK", "NOCO", "ODYSSEY Battery", "Old Man Emu","Optima Batteries", "Oracle Lighting", "Smittybilt", "AMP Research"]
+        //   in:[ "KMC Wheels", "AirBedz", "Armorlite", "American Racing", "ANCO","ANZO USA",  "AO Coolers",  "A.R.E.", "Artec Industries", "Aries Automotive", "American Trail Products", "Autowatch Canada", "Auto Ventshade", "Baja Designs", "Banks Power", "Black Rock Wheels", "Decked"]
+        // },
         status: 1,
       },
     });
@@ -27,10 +27,9 @@ const MeyerCost = async () => {
         meyer_code: {
           not: "", // Exclude results where meyer_code is empty
         },
-        brand_name: {
-          // in:[ "Napier Sportz","N-Fab", "NGK", "NOCO", "ODYSSEY Battery", "Old Man Emu","Optima Batteries", "Oracle Lighting", "Smittybilt", "AMP Research"]
-          // in: ["ARB"],
-        },
+        // brand_name: {
+        //   // in:[ "Napier Sportz","N-Fab", "NGK", "NOCO", "ODYSSEY Battery", "Old Man Emu","Optima Batteries", "Oracle Lighting", "Smittybilt", "AMP Research"]
+        //   in:[ "KMC Wheels", "AirBedz", "Armorlite", "American Racing", "ANCO","ANZO USA",  "AO Coolers",  "A.R.E.", "Artec Industries", "Aries Automotive", "American Trail Products", "Autowatch Canada", "Auto Ventshade", "Baja Designs", "Banks Power", "Black Rock Wheels", "Decked"]        },
         status: 1,
       },
       select: {
@@ -74,7 +73,7 @@ const MeyerCost = async () => {
           responses.push(null); // Push null for error responses
         }
         // Add a delay of 5 seconds between API requests
-        await new Promise((resolve) => setTimeout(resolve, 5000));
+        await new Promise((resolve) => setTimeout(resolve, 2000));
       }
       console.log(`Chunk ${chunkIndex} completed.`);
       // Add a delay of 60 seconds before calling the next chunk

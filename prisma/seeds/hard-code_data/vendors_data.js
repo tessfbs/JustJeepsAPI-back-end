@@ -36,6 +36,15 @@ const vendorsData = [
     main_contact: "NA",
     username: "NA",
     password: "NA"
+  },
+  {
+    name: "WheelsPros",
+    website: "https://www.wheelpros.com/",
+    address: "NA",
+    phone_number: "NA",
+    main_contact: "NA",
+    username: "NA",
+    password: "NA"
   }
 ];
 

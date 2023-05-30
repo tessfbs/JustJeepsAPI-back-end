@@ -13,11 +13,10 @@ module.exports = [
     keystone_code: "ACA",
     meyer_code: "ACA",
     quadratec_code: "Accuair",
-   
   },
   {
     jj_prefix: "ACU",
-    brand_name: "AccuPart",
+    brand_name: "AccuPart",  
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
@@ -26,11 +25,10 @@ module.exports = [
   {
     jj_prefix: "ADD",
     brand_name: "Addictive Desert Designs",
-    vendors: "Keystone, Meyers, Quadratec",
+    vendors: "Keystone, Meyers",
     keystone_code: "ADD",
     meyer_code: "ADD",
     quadratec_code: "",
-
   },
   {
     jj_prefix: "ADV",
@@ -57,8 +55,8 @@ module.exports = [
     quadratec_code: "aFe Power",
   },
   {
-    jj_prefix: "AID",
-    brand_name: "AIRAID",
+    jj_prefix: "AIR",
+    brand_name: "AIRAID",  
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "A86",
     meyer_code: "AIR",
@@ -66,14 +64,14 @@ module.exports = [
   },
   {
     jj_prefix: "ABZ",
-    brand_name: "AirBedz",
+    brand_name: "AirBedz",  
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "ABZ",
     meyer_code: "ABZ",
     quadratec_code: "AirBedz",
   },
   {
-    jj_prefix: "AIR",
+    jj_prefix: "AID",
     brand_name: "Air Design",
     vendors: "Keystone, Quadratec",
     keystone_code: "AIR",
@@ -99,10 +97,11 @@ module.exports = [
   {
     jj_prefix: "ALP",
     brand_name: "Alpine",
-    vendors: "Gentecdirect",
+    vendors: "Gentecdirect, Quadratec",
     keystone_code: "",
     meyer_code: "",
     quadratec_code: "Alpine",
+    gentecdirect_code: "SKU: ",
   },
   {
     jj_prefix: "AEV",
@@ -118,6 +117,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "American Outlaw",
   },
   {
     jj_prefix: "AMR",
@@ -125,6 +125,7 @@ module.exports = [
     vendors: "Keystone, Quadratec",
     keystone_code: "A78",
     meyer_code: "",
+    quadratec_code: "American Racing",
   },
   {
     jj_prefix: "ATP",
@@ -132,6 +133,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "ATP",
+    quadratec_code: "American Trail Products",
   },
   {
     jj_prefix: "AMI",
@@ -139,6 +141,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "AMI",
   },
   {
     jj_prefix: "AMP",
@@ -146,6 +149,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "AMP",
     meyer_code: "AMP",
+    quadratec_code: "AMP Research",
   },
   {
     jj_prefix: "ANC",
@@ -153,6 +157,7 @@ module.exports = [
     vendors: "Keystone",
     keystone_code: "A19",
     meyer_code: "",
+    quadratec_code: "",
   },
   {
     jj_prefix: "ANU",
@@ -174,6 +179,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "ARB",
     meyer_code: "ARB",
+    quadratec_code: "ARB",
   },
   {
     jj_prefix: "ARE",
@@ -188,13 +194,15 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "A1S",
     meyer_code: "ARI",
+    quadratec_code: "Aries",
   },
   {
     jj_prefix: "AML",
     brand_name: "Armorlite",
-    vendors: "Meyers, Keystone, Quadratec",
+    vendors: "Meyers, Quadratec",
     keystone_code: "AML",
     meyer_code: "AML",
+    quadratec_code: "Armorlite",
   },
   {
     jj_prefix: "ARI",
@@ -209,10 +217,11 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Automotive Gold",
   },
   {
     jj_prefix: "ATW",
-    brand_name: "Autowatch Canada",
+    brand_name: "Autowatch Canada - DO NOT NEED TO UPDATE",
     vendors: "Autowatch",
     keystone_code: "",
     meyer_code: "",
@@ -223,6 +232,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Auto Custom Carpets",
   },
   {
     jj_prefix: "ART",
@@ -235,8 +245,9 @@ module.exports = [
     jj_prefix: "AVS",
     brand_name: "Auto Ventshade",
     vendors: "Meyers, Keystone, Quadratec",
-    keystone_code: "AVS",
+    keystone_code: "V15",
     meyer_code: "AVE",
+    quadratec_code: "AVS",
   },
   {
     jj_prefix: "B",
@@ -251,6 +262,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "B34",
     meyer_code: "BAJ",
+    quadratec_code: "Baja Designs",
   },
   {
     jj_prefix: "BAP",
@@ -258,6 +270,7 @@ module.exports = [
     vendors: "Keystone, Quadratec",
     keystone_code: "B76",
     meyer_code: "",
+    quadratec_code: "Banks Power",
   },
   {
     jj_prefix: "BDS",
@@ -272,6 +285,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "B63",
     meyer_code: "WIS",
+    quadratec_code: "Bedrug",
   },
   {
     jj_prefix: "BST",
@@ -279,13 +293,15 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "D34",
     meyer_code: "BES",
+    quadratec_code: "Bestop",
   },
   {
     jj_prefix: "BFG",
     brand_name: "BF Goodrich Tires",
-    vendors: "Meyers, Tire Discounter",
+    vendors: "Meyers, Tire Discounter, Quadratec",
     keystone_code: "BFG",
     meyer_code: "",
+    quadratec_code: "BFGoodrich",
   },
   {
     jj_prefix: "BIL",
@@ -293,27 +309,31 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "B52",
     meyer_code: "BIL",
+    quadratec_code: "Bilstein",
   },
   {
     jj_prefix: "BHO",
     brand_name: "Black Horse Offroad",
-    vendors: "Keystone",
+    vendors: "Keystone, Quadratec",
     keystone_code: "BLK",
     meyer_code: "",
+    quadratec_code: "Black Horse Offroad",
   },
   {
     jj_prefix: "BLR",
     brand_name: "Black Rhino",
-    vendors: "WheelPros",
+    vendors: "WheelPros, Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Black Rhino",
   },
   {
     jj_prefix: "BC",
     brand_name: "Black Rock Wheels",
     vendors: "Keystone, Quadratec",
-    keystone_code: "BLK",
+    keystone_code: "C29",
     meyer_code: "",
+    quadratec_code: "Black Rock",
   },
   {
     jj_prefix: "BLX",
@@ -328,6 +348,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "B96",
     meyer_code: "BOD",
+    quadratec_code: "Body Armor",
   },
   {
     jj_prefix: "BOL",
@@ -335,6 +356,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "S6R",
     meyer_code: "BOL",
+    quadratec_code: "BOLT",
   },
   {
     jj_prefix: "BMR",
@@ -342,6 +364,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Boomerang Enterprises",
   },
   {
     jj_prefix: "BUC",
@@ -349,6 +372,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "B73",
     meyer_code: "BUC",
+    quadratec_code: "Borgeson",
   },
   {
     jj_prefix: "BOR",
@@ -356,6 +380,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "B25",
     meyer_code: "BRL",
+    quadratec_code: "Borla",
   },
   {
     jj_prefix: "BRM",
@@ -363,6 +388,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "B1M",
     meyer_code: "BRM",
+    quadratec_code: "Brandmotion",
   },
   {
     jj_prefix: "BRI",
@@ -384,13 +410,15 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "BUB",
+    quadratec_code: "Bubba Rope",
   },
   {
     jj_prefix: "BUS",
     brand_name: "BUSHWACKER",
-    vendors: "",
+    vendors: "Keystone, Quadratec",
     keystone_code: "L22",
     meyer_code: "",
+    quadratec_code: "Bushwacker",
   },
   {
     jj_prefix: "C",
@@ -412,20 +440,22 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Carnivore",
   },
   {
     jj_prefix: "CAR",
     brand_name: "CARR",
-    vendors: "",
+    vendors: "keystone, Meyers",
     keystone_code: "C22",
     meyer_code: "CAR",
   },
   {
     jj_prefix: "CGG",
     brand_name: "CargoGlide",
-    vendors: "Meyers, Keystone",
+    vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "CGL",
     meyer_code: "CGL",
+    quadratec_code: "CargoGlide",
   },
   {
     jj_prefix: "CAT",
@@ -433,6 +463,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "CAT",
   },
   {
     jj_prefix: "CFR",
@@ -440,6 +471,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "C78",
     meyer_code: "CTF",
+    quadratec_code: "Centerforce",
   },
   {
     jj_prefix: "CER",
@@ -447,6 +479,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Cervini's Auto Design",
   },
   {
     jj_prefix: "CHG",
@@ -461,6 +494,7 @@ module.exports = [
     vendors: "ClearlidZ",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Clearlidz",
   },
   {
     jj_prefix: "CLF",
@@ -468,6 +502,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Cliffride",
   },
   {
     jj_prefix: "COB",
@@ -475,13 +510,15 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "C98",
     meyer_code: "COB",
+    quadratec_code: "Cobra",
   },
   {
     jj_prefix: "COT",
     brand_name: "Cooper Tires",
-    vendors: "Canada Tire",
+    vendors: "Canada Tire, Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Cooper Tires",
   },
   {
     jj_prefix: "CRB",
@@ -489,6 +526,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "CBU",
+    quadratec_code: "Corbeau",
   },
   {
     jj_prefix: "CRP",
@@ -496,6 +534,7 @@ module.exports = [
     vendors: "Keystone, Quadratec",
     keystone_code: "C1M",
     meyer_code: "",
+    quadratec_code: "Corsa Performance",
   },
   {
     jj_prefix: "COV",
@@ -503,6 +542,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "C59",
     meyer_code: "COV",
+    quadratec_code: "Covercraft",
   },
   {
     jj_prefix: "CTC",
@@ -517,6 +557,7 @@ module.exports = [
     vendors: "Crown Directly, Keystone, Meyers, Quadratec",
     keystone_code: "C1Y",
     meyer_code: "CAS",
+    quadratec_code: "Crown Automotive",
   },
   {
     jj_prefix: "CRP",
@@ -524,6 +565,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Crown Performance Products",
   },
   {
     jj_prefix: "CUR",
@@ -531,6 +573,7 @@ module.exports = [
     vendors: "Keystone, Quadratec",
     keystone_code: "CEN",
     meyer_code: "",
+    quadratec_code: "Currie Enterprises",
   },
   {
     jj_prefix: "CMF",
@@ -538,6 +581,7 @@ module.exports = [
     vendors: "Meyers, Keystone Quadratec",
     keystone_code: "C93",
     meyer_code: "CUR",
+    quadratec_code: "CURT",
   },
   {
     jj_prefix: "D",
@@ -549,9 +593,10 @@ module.exports = [
   {
     jj_prefix: "DC",
     brand_name: "D&C Designs",
-    vendors: "",
+    vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "D&C Designs",
   },
   {
     jj_prefix: "DSP",
@@ -559,6 +604,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "DSP",
     meyer_code: "DNA",
+    quadratec_code: "Dana Spicer",
   },
   {
     jj_prefix: "DAY",
@@ -566,6 +612,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "D78",
     meyer_code: "DAY",
+    quadratec_code: "Daystar",
   },
   {
     jj_prefix: "DKD",
@@ -573,6 +620,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "DCK",
     meyer_code: "DCK",
+    quadratec_code: "Decked",
   },
   {
     jj_prefix: "DZE",
@@ -580,6 +628,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "DZE",
+    quadratec_code: "Dee Zee",
   },
   {
     jj_prefix: "DOD",
@@ -587,13 +636,15 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "DIO",
     meyer_code: "DDY",
+    quadratec_code: "Diode Dynamics",
   },
   {
     jj_prefix: "DD",
     brand_name: "Dirty Dog 4X4",
-    vendors: "DirtyDog",
+    vendors: "DirtyDog, Meyer",
     keystone_code: "",
-    meyer_code: "",
+    meyer_code: "DDG",
+    quadratec_code: "Dirtydog 4X4",
   },
   {
     jj_prefix: "DIT",
@@ -601,6 +652,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "WGH",
     meyer_code: "DLW",
+    quadratec_code: "Dirty Life Race Wheels",
   },
   {
     jj_prefix: "DID",
@@ -608,6 +660,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Diver Down",
   },
   {
     jj_prefix: "DOM",
@@ -615,11 +668,12 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "D7E",
     meyer_code: "DOM",
+    quadratec_code: "Dometic",
   },
   {
     jj_prefix: "DOR",
     brand_name: "Dorman",
-    vendors: "Meyers, Keystone, Quadratec",
+    vendors: "Meyers, Keystone",
     keystone_code: "D18",
     meyer_code: "DOR",
   },
@@ -629,6 +683,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "D70",
     meyer_code: "DRT",
+    quadratec_code: "Draw-Tite",
   },
   {
     jj_prefix: "DLP",
@@ -650,6 +705,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "DV8",
     meyer_code: "DVE",
+    quadratec_code: "DV8 Offroad",
   },
   {
     jj_prefix: "DYN",
@@ -657,13 +713,15 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "DPC",
+    quadratec_code: "Dynatrac",
   },
   {
     jj_prefix: "DMX",
     brand_name: "DynoMax Exhaust",
-    vendors: "Meyers, Keystone",
+    vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "D22",
     meyer_code: "DYN",
+    quadratec_code: "DynoMax",
   },
   {
     jj_prefix: "E",
@@ -678,6 +736,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "E36",
     meyer_code: "EAT",
+    quadratec_code: "EATON",
   },
   {
     jj_prefix: "EBC",
@@ -699,13 +758,15 @@ module.exports = [
     vendors: "Meyers, Keystone",
     keystone_code: "EFE",
     meyer_code: "ELE",
+    quadratec_code: "Element",
   },
   {
     jj_prefix: "ESP",
     brand_name: "Energy Suspension",
-    vendors: "Meyers, Keystone",
+    vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "E12",
     meyer_code: "ENG",
+    quadratec_code: "Energy Suspension",
   },
   {
     jj_prefix: "EVO",
@@ -713,6 +774,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "EVO",
+    quadratec_code: "EVO Manufacturing",
   },
   {
     jj_prefix: "EXC",
@@ -727,6 +789,7 @@ module.exports = [
     vendors: "Keystone, Quadratec",
     keystone_code: "EXR",
     meyer_code: "",
+    quadratec_code: "Exposed Racks",
   },
   {
     jj_prefix: "EXT",
@@ -734,6 +797,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "E18",
     meyer_code: "EXT",
+    quadratec_code: "Extang",
   },
   {
     jj_prefix: "F",
@@ -748,6 +812,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "F66",
     meyer_code: "FFB",
+    quadratec_code: "Fab Fours",
   },
   {
     jj_prefix: "FBT",
@@ -755,6 +820,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "F37",
     meyer_code: "FAB",
+    quadratec_code: "Fabtech",
   },
   {
     jj_prefix: "F55",
@@ -762,6 +828,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "FAC",
     meyer_code: "FCT",
+    quadratec_code: "Factor 55",
   },
   {
     jj_prefix: "FCI",
@@ -769,13 +836,15 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Fairchild Industries",
   },
   {
     jj_prefix: "FKL",
     brand_name: "Falken WildPeak",
-    vendors: "Meyers, Keystone",
+    vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "F34",
     meyer_code: "FTC",
+    quadratec_code: "Falken",
   },
   {
     jj_prefix: "FLK",
@@ -790,6 +859,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Fifteen52",
   },
   {
     jj_prefix: "FTN",
@@ -804,6 +874,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "FSH",
     meyer_code: "KEN",
+    quadratec_code: "Fishbone Offroad",
   },
   {
     jj_prefix: "FLM",
@@ -811,6 +882,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "F13",
     meyer_code: "FLO",
+    quadratec_code: "Flowmaster",
   },
   {
     jj_prefix: "FOX",
@@ -818,6 +890,7 @@ module.exports = [
     vendors: "Keystone, Quadratec",
     keystone_code: "F75",
     meyer_code: "",
+    quadratec_code: "Fox Racing Shox",
   },
   {
     jj_prefix: "FRS",
@@ -829,9 +902,10 @@ module.exports = [
   {
     jj_prefix: "FOR",
     brand_name: "Fuel Off-Road",
-    vendors: "WheelPros",
+    vendors: "WheelPros, Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Fuel Off-Road",
   },
   {
     jj_prefix: "FUA",
@@ -850,9 +924,10 @@ module.exports = [
   {
     jj_prefix: "G2",
     brand_name: "G2 Axle & Gear",
-    vendors: "Quadratec",
+    vendors: "Keystone, Meyers, Quadratec",
     keystone_code: "G76",
     meyer_code: "GGA",
+    quadratec_code: "G2 Axle & Gear",
   },
   {
     jj_prefix: "GSM",
@@ -860,6 +935,7 @@ module.exports = [
     vendors: "",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Garage Smart",
   },
   {
     jj_prefix: "GRV",
@@ -867,6 +943,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "GRV",
+    quadratec_code: "Garvin",
   },
   {
     jj_prefix: "GEN",
@@ -881,6 +958,7 @@ module.exports = [
     vendors: "Keystone, Quadratec",
     keystone_code: "G27",
     meyer_code: "",
+    quadratec_code: "Gibson",
   },
   {
     jj_prefix: "GOR",
@@ -888,27 +966,31 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "G26",
     meyer_code: "RHI",
+    quadratec_code: "Go Rhino",
   },
   {
     jj_prefix: "GYR",
     brand_name: "GOODYEAR",
-    vendors: "Tire Country",
+    vendors: "Tire Country, Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Goodyear",
   },
   {
     jj_prefix: "GRA",
     brand_name: "Gorilla Automotive",
-    vendors: "Meyers, Keystone",
+    vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "G20",
     meyer_code: "GOL",
+    quadratec_code: "Gorilla Automotive",
   },
   {
     jj_prefix: "",
     brand_name: "Grant Products",
-    vendors: "Keystone",
+    vendors: "Keystone, Quadratec",
     keystone_code: "G19",
     meyer_code: "",
+    quadratec_code: "Grant Products",
   },
   {
     jj_prefix: "GRF",
@@ -916,6 +998,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Griffin Radiator & Thermal Products",
   },
   {
     jj_prefix: "GRL",
@@ -930,6 +1013,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "G49",
     meyer_code: "GST",
+    quadratec_code: "GT Styling",
   },
   {
     jj_prefix: "H",
@@ -944,55 +1028,63 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Harken",
   },
   {
     jj_prefix: "HVC",
     brand_name: "Havoc Offroad",
-    vendors: "Keystone",
+    vendors: "Keystone, Quadratec",
     keystone_code: "O32",
     meyer_code: "",
+    quadratec_code: "Havoc Offroad",
   },
   {
     jj_prefix: "HEI",
     brand_name: "Heininger Automotive",
-    vendors: "Meyers",
+    vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "HEI",
+    quadratec_code: "Heininger Automotive",
   },
   {
     jj_prefix: "HEL",
     brand_name: "HELLA",
-    vendors: "Meyers, Keystone",
+    vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "H57",
     meyer_code: "HEL",
+    quadratec_code: "Hella",
   },
   {
     jj_prefix: "HWG",
     brand_name: "Hellwig Suspension",
-    vendors: "Meyers, Keystone",
+    vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "H63",
     meyer_code: "HWG",
+    quadratec_code: "Hellwig Suspension",
   },
   {
     jj_prefix: "HIL",
     brand_name: "Hi-Lift Jack",
-    vendors: "Meyers, Keystone",
+    vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "H12",
     meyer_code: "HIL",
+    quadratec_code: "Hi-Lift",
   },
   {
     jj_prefix: "HOP",
     brand_name: "Hopkins",
-    vendors: "Meyers, Keystone",
+    vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "H22",
     meyer_code: "HOP",
+    quadratec_code: "Hopkins Towing Solutions",
   },
   {
     jj_prefix: "HU",
     brand_name: "Husky Liners",
-    vendors: "Meyers, Keystone",
+    vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "H21",
     meyer_code: "HSL",
+    quadratec_code: "Husky Liners",
   },
   {
     jj_prefix: "HTP",
@@ -1007,6 +1099,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "HyLine OffRoad",
   },
   {
     jj_prefix: "HT",
@@ -1035,6 +1128,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Insync",
   },
   {
     jj_prefix: "IRC",
@@ -1056,6 +1150,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "J47",
     meyer_code: "JWS",
+    quadratec_code: "J.W. Speaker",
   },
   {
     jj_prefix: "JAM",
@@ -1063,6 +1158,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Jammock",
   },
   {
     jj_prefix: "JBA",
@@ -1077,6 +1173,7 @@ module.exports = [
     vendors: "Quadratec / Elsewhere",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Jeep Merchandise",
   },
   {
     jj_prefix: "JTW",
@@ -1091,6 +1188,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "J20",
     meyer_code: "JET",
+    quadratec_code: "Jet Performance",
   },
   {
     jj_prefix: "JKS",
@@ -1098,6 +1196,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "J46",
     meyer_code: "JKS",
+    quadratec_code: "JKS Manufacturing",
   },
   {
     jj_prefix: "JJ",
@@ -1119,6 +1218,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "K33",
     meyer_code: "KNN",
+    quadratec_code: "K&N",
   },
   {
     jj_prefix: "KCH",
@@ -1126,6 +1226,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "K13",
     meyer_code: "KCL",
+    quadratec_code: "KC HiLiTES",
   },
   {
     jj_prefix: "KEN",
@@ -1133,13 +1234,15 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "KEN",
     meyer_code: "KEN",
+    quadratec_code: "Kentrol",
   },
   {
     jj_prefix: "KEY",
     brand_name: "KeyParts",
-    vendors: "Purchase directly",
+    vendors: "Purchase directly, Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Key Parts",
   },
   {
     jj_prefix: "KCR",
@@ -1147,6 +1250,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "KIC",
+    quadratec_code: "Kicker",
   },
   {
     jj_prefix: "KLN",
@@ -1154,13 +1258,15 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "K86",
     meyer_code: "KLN",
+    quadratec_code: "Kleinn Air Horns",
   },
   {
     jj_prefix: "KMC",
     brand_name: "KMC Wheels",
-    vendors: "Wheelpros",
+    vendors: "Wheelpros, Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "KMC Wheels",
   },
   {
     jj_prefix: "KRK",
@@ -1189,6 +1295,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "LAN",
+    quadratec_code: "Lange Originals",
   },
   {
     jj_prefix: "LOD",
@@ -1196,6 +1303,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "LDB",
+    quadratec_code: "LoD Offroad",
   },
   {
     jj_prefix: "LUL",
@@ -1203,6 +1311,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "LUB",
+    quadratec_code: "Lubelocker",
   },
   {
     jj_prefix: "LUK",
@@ -1224,6 +1333,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Lynx",
   },
   {
     jj_prefix: "M",
@@ -1245,6 +1355,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "M66",
     meyer_code: "MAG",
+    quadratec_code: "Magnaflow",
   },
   {
     jj_prefix: "MRS",
@@ -1252,6 +1363,7 @@ module.exports = [
     vendors: "Keystone, Quadratec",
     keystone_code: "M6B",
     meyer_code: "",
+    quadratec_code: "Magnum by Raptor Series",
   },
   {
     jj_prefix: "MMO",
@@ -1259,6 +1371,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Mamba Offroad",
   },
   {
     jj_prefix: "MST",
@@ -1281,6 +1394,7 @@ module.exports = [
     vendors: "Meyers, Keystone Quadratec",
     keystone_code: "M96",
     meyer_code: "MXS",
+    quadratec_code: "Maxxis",
   },
   {
     jj_prefix: "MAW",
@@ -1288,6 +1402,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "WGH",
     meyer_code: "MAY",
+    quadratec_code: "Mayhem",
   },
   {
     jj_prefix: "MBP",
@@ -1295,6 +1410,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "M79",
     meyer_code: "MBR",
+    quadratec_code: "MBRP",
   },
   {
     jj_prefix: "MCE",
@@ -1302,6 +1418,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "MCE",
     meyer_code: "MCE",
+    quadratec_code: "MCE Fenders",
   },
   {
     jj_prefix: "MCG",
@@ -1309,6 +1426,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "M15",
     meyer_code: "MCG",
+    quadratec_code: "McGard",
   },
   {
     jj_prefix: "MDJ",
@@ -1316,6 +1434,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "MD Juan",
   },
   {
     jj_prefix: "MRW",
@@ -1323,6 +1442,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "MRW",
     meyer_code: "MRW",
+    quadratec_code: "Method Race Wheels",
   },
   {
     jj_prefix: "MEY",
@@ -1344,6 +1464,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "M53, M54, M56",
     meyer_code: "MTT",
+    quadratec_code: "Mickey Thompson",
   },
   {
     jj_prefix: "MRU",
@@ -1351,6 +1472,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Mirage Unlimited",
   },
   {
     jj_prefix: "MSC",
@@ -1358,6 +1480,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Misch 4X4",
   },
   {
     jj_prefix: "MIS",
@@ -1365,6 +1488,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "M1N",
     meyer_code: "MIS",
+    quadratec_code: "Mishimoto",
   },
   {
     jj_prefix: "MON",
@@ -1383,9 +1507,10 @@ module.exports = [
   {
     jj_prefix: "MO",
     brand_name: "MOPAR",
-    vendors: "Downsview",
+    vendors: "Downsview, Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Mopar",
   },
   {
     jj_prefix: "MRY",
@@ -1393,6 +1518,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "MRY",
+    quadratec_code: "MORryde",
   },
   {
     jj_prefix: "MOG",
@@ -1400,6 +1526,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "M92",
     meyer_code: "MOG",
+    quadratec_code: "Motive Gear",
   },
   {
     jj_prefix: "MCA",
@@ -1407,6 +1534,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Motor City Aftermarket",
   },
   {
     jj_prefix: "MOR",
@@ -1414,6 +1542,7 @@ module.exports = [
     vendors: "Quadratec, Keystone",
     keystone_code: "MOR",
     meyer_code: "",
+    quadratec_code: "Mountain Off-Road",
   },
   {
     jj_prefix: "N",
@@ -1428,6 +1557,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "N21",
     meyer_code: "NFB",
+    quadratec_code: "N-FAB",
   },
   {
     jj_prefix: "NAP",
@@ -1435,20 +1565,22 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "N40",
     meyer_code: "NAE",
+    quadratec_code: "Napier Outdoors",
   },
   {
     jj_prefix: "NGK",
     brand_name: "NGK",
-    vendors: "Meyers, Keystone, Quadratec",
+    vendors: "Meyers, Keystone",
     keystone_code: "N12",
     meyer_code: "NGK",
   },
   {
     jj_prefix: "NIT",
     brand_name: "Nitto Tire",
-    vendors: "-",
-    keystone_code: "",
-    meyer_code: "",
+    vendors: "Quadratec, Meyers, Keystone",
+    keystone_code: "NTG",
+    meyer_code: "NTO",
+    quadratec_code: "Nitto",
   },
   {
     jj_prefix: "NOC",
@@ -1463,6 +1595,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Novak Conversions",
   },
   {
     jj_prefix: "O",
@@ -1477,6 +1610,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "O22",
     meyer_code: "ODY",
+    quadratec_code: "Odyssey Battery",
   },
   {
     jj_prefix: "OOG",
@@ -1488,16 +1622,18 @@ module.exports = [
   {
     jj_prefix: "OME",
     brand_name: "Old Man Emu",
-    vendors: "Meyers, Keystone, Quadratec",
+    vendors: "Keystone, Quadratec",
     keystone_code: "OME",
-    meyer_code: "ARB",
+    meyer_code: "",
+    quadratec_code: "Old Man Emu",
   },
   {
     jj_prefix: "OA",
     brand_name: "OMIX-ADA",
-    vendors: "Omix-ADA",
+    vendors: "Omix-ADA, Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "OMIX",
   },
   {
     jj_prefix: "OPT",
@@ -1505,6 +1641,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "O10",
     meyer_code: "OPT",
+    quadratec_code: "Optima Batteries",
   },
   {
     jj_prefix: "ORL",
@@ -1512,6 +1649,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "O37",
     meyer_code: "ORL",
+    quadratec_code: "Oracle Lighting",
   },
   {
     jj_prefix: "OBA",
@@ -1526,6 +1664,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Overland Outfitters",
   },
   {
     jj_prefix: "OVS",
@@ -1533,6 +1672,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "OVS",
     meyer_code: "UDA",
+    quadratec_code: "Overland Vehicle Systems",
   },
   {
     jj_prefix: "ORD",
@@ -1540,6 +1680,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Overtread",
   },
   {
     jj_prefix: "P",
@@ -1554,6 +1695,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "P62",
     meyer_code: "PAC",
+    quadratec_code: "Pacer Performance Products",
   },
   {
     jj_prefix: "PAR",
@@ -1561,6 +1703,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "P1Z",
     meyer_code: "PMT",
+    quadratec_code: "Paramount Automotive",
   },
   {
     jj_prefix: "PAV",
@@ -1568,6 +1711,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "P85",
     meyer_code: "PVT",
+    quadratec_code: "Pavement Ends",
   },
   {
     jj_prefix: "PED",
@@ -1575,6 +1719,7 @@ module.exports = [
     vendors: "Keystone, Quadratec",
     keystone_code: "PED",
     meyer_code: "",
+    quadratec_code: "Pedal Commander",
   },
   {
     jj_prefix: "PGX",
@@ -1582,6 +1727,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Phoenix Graphix",
   },
   {
     jj_prefix: "PIA",
@@ -1589,6 +1735,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "P27",
     meyer_code: "PIA",
+    quadratec_code: "PIAA",
   },
   {
     jj_prefix: "PAM",
@@ -1596,6 +1743,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "P25",
     meyer_code: "WAN",
+    quadratec_code: "Pilot Automotive",
   },
   {
     jj_prefix: "PLC",
@@ -1603,6 +1751,7 @@ module.exports = [
     vendors: "Keystone, Quadratec",
     keystone_code: "P23",
     meyer_code: "",
+    quadratec_code: "Plasticolor",
   },
   {
     jj_prefix: "PS",
@@ -1610,6 +1759,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "PSI",
+    quadratec_code: "Poison Spyder",
   },
   {
     jj_prefix: "POR",
@@ -1617,6 +1767,7 @@ module.exports = [
     vendors: "Keystone, Quadratec",
     keystone_code: "POR",
     meyer_code: "",
+    quadratec_code: "Por-15",
   },
   {
     jj_prefix: "PST",
@@ -1624,6 +1775,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "P15",
     meyer_code: "PSB",
+    quadratec_code: "Power Stop",
   },
   {
     jj_prefix: "PTX",
@@ -1631,6 +1783,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "PTL",
+    quadratec_code: "PowerTrax",
   },
   {
     jj_prefix: "PRP",
@@ -1638,34 +1791,39 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Precision Replacement Parts",
   },
   {
     jj_prefix: "PXA",
-    brand_name: "PRO COMP Alloy Wheels",
-    vendors: "Meyers, Keystone",
+    brand_name: "PRO COMP Alloy Wheels",    
+    vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "P74",
     meyer_code: "PXA",
+    quadratec_code: "Pro Comp",
   },
   {
     jj_prefix: "PCW",
     brand_name: "PRO COMP Steel Wheels",
-    vendors: "Meyers",
-    keystone_code: "",
+    vendors: "Meyers, Keystone, Quadratec",
+    keystone_code: "P74",
     meyer_code: "PCW",
+    quadratec_code: "Pro Comp",
   },
   {
     jj_prefix: "EXP",
     brand_name: "PRO COMP Suspension",
-    vendors: "Meyers",
-    keystone_code: "",
+    vendors: "Meyers, Keystone, Quadratec",
+    keystone_code: "E37",
     meyer_code: "EXP",
+    quadratec_code: "Pro Comp",
   },
   {
     jj_prefix: "PCT",
     brand_name: "PRO COMP Tires",
-    vendors: "Meyers",
-    keystone_code: "",
+    vendors: "Meyers, Keystone, Quadratec",
+    keystone_code: "P84",
     meyer_code: "PCT",
+    quadratec_code: "Pro Comp",
   },
   {
     jj_prefix: "PRE",
@@ -1673,6 +1831,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "PEG",
+    quadratec_code: "Pro Eagle",
   },
   {
     jj_prefix: "PRS",
@@ -1684,9 +1843,10 @@ module.exports = [
   {
     jj_prefix: "PMX",
     brand_name: "ProMaxx Automotive",
-    vendors: "Meyers",
+    vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "PMX",
+    quadratec_code: "ProMaxx Performance Products",
   },
   {
     jj_prefix: "PSC",
@@ -1694,6 +1854,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "PSC",
+    quadratec_code: "PSC Motorsports",
   },
   {
     jj_prefix: "PUT",
@@ -1701,6 +1862,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "P45",
     meyer_code: "PUT",
+    quadratec_code: "Putco",
   },
   {
     jj_prefix: "Q",
@@ -1753,6 +1915,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "R92",
     meyer_code: "RAM",
+    quadratec_code: "Rampage Products",
   },
   {
     jj_prefix: "RAN",
@@ -1760,6 +1923,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "R38",
     meyer_code: "RHO",
+    quadratec_code: "Rancho",
   },
   {
     jj_prefix: "RL",
@@ -1767,6 +1931,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "R90",
     meyer_code: "RDY",
+    quadratec_code: "ReadyLift Suspension",
   },
   {
     jj_prefix: "ROR",
@@ -1774,6 +1939,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Reaper Off-Road",
   },
   {
     jj_prefix: "REC",
@@ -1788,6 +1954,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "RES-Q",
   },
   {
     jj_prefix: "RHI",
@@ -1795,6 +1962,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "RHR",
     meyer_code: "RHR",
+    quadratec_code: "Rhino-Rack",
   },
   {
     jj_prefix: "RG",
@@ -1802,6 +1970,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "RTL",
     meyer_code: "RLG",
+    quadratec_code: "Rightline Gear 4x4",
   },
   {
     jj_prefix: "RIG",
@@ -1809,13 +1978,15 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "R2G",
     meyer_code: "RIG",
+    quadratec_code: "Rigid Industries",
   },
   {
     jj_prefix: "RIP",
     brand_name: "Ripp Supercharger",
-    vendors: "-",
+    vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "RIPP Superchargers",
   },
   {
     jj_prefix: "RIV",
@@ -1823,6 +1994,7 @@ module.exports = [
     vendors: "Quadratec, Keystone",
     keystone_code: "RVL",
     meyer_code: "",
+    quadratec_code: "Rival 4x4",
   },
   {
     jj_prefix: "RAM",
@@ -1830,6 +2002,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "RDA",
     meyer_code: "RDA",
+    quadratec_code: "Road Armor",
   },
   {
     jj_prefix: "RAC",
@@ -1844,6 +2017,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "CUE",
+    quadratec_code: "RockJock",
   },
   {
     jj_prefix: "RKG",
@@ -1858,6 +2032,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "RockNob",
   },
   {
     jj_prefix: "RH",
@@ -1865,6 +2040,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "RCH",
+    quadratec_code: "Rock Hard 4X4",
   },
   {
     jj_prefix: "RK",
@@ -1872,6 +2048,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "RKR",
+    quadratec_code: "Rock Krawler",
   },
   {
     jj_prefix: "RSE",
@@ -1879,6 +2056,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "RCK",
     meyer_code: "RSE",
+    quadratec_code: "Rock Slide Engineering",
   },
   {
     jj_prefix: "RBP",
@@ -1886,6 +2064,7 @@ module.exports = [
     vendors: "Quadratec, Keystone, Meyers",
     keystone_code: "R94",
     meyer_code: "RBP",
+    quadratec_code: "Rolling Big Power",
   },
   {
     jj_prefix: "ROM",
@@ -1893,6 +2072,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "R96",
     meyer_code: "ROM",
+    quadratec_code: "Romik",
   },
   {
     jj_prefix: "ROT",
@@ -1900,6 +2080,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "RTO",
     meyer_code: "RPX",
+    quadratec_code: "RotopaX",
   },
   {
     jj_prefix: "ROX",
@@ -1907,13 +2088,15 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Rox Offroad",
   },
   {
     jj_prefix: "RC",
     brand_name: "Rough Country",
-    vendors: "Rough Country",
+    vendors: "Rough Country, Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Rough Country",
   },
   {
     jj_prefix: "RSI",
@@ -1935,6 +2118,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "R97",
     meyer_code: "RUB",
+    quadratec_code: "Rubicon Express",
   },
   {
     jj_prefix: "RUR",
@@ -1949,6 +2133,7 @@ module.exports = [
     vendors: "Omix-ADA",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Rugged Ridge",
   },
   {
     jj_prefix: "RBS",
@@ -1956,6 +2141,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "RBF",
+    quadratec_code: "Rust Buster",
   },
   {
     jj_prefix: "S",
@@ -1970,6 +2156,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "SNB",
+    quadratec_code: "S&B Filters",
   },
   {
     jj_prefix: "OSS",
@@ -1977,6 +2164,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Safety Seal",
   },
   {
     jj_prefix: "SAI",
@@ -1991,13 +2179,15 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Savvy Off Road",
   },
   {
     jj_prefix: "SSU",
     brand_name: "SeaSucker",
-    vendors: "Keystone",
+    vendors: "Keystone, Quadratec",
     keystone_code: "SSK",
     meyer_code: "",
+    quadratec_code: "SeaSucker",
   },
   {
     jj_prefix: "SBL",
@@ -2005,6 +2195,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Seatbelt Solutions",
   },
   {
     jj_prefix: "SCH",
@@ -2012,6 +2203,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "SCO",
     meyer_code: "SCI",
+    quadratec_code: "Scosche",
   },
   {
     jj_prefix: "SHM",
@@ -2026,13 +2218,15 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "S97",
     meyer_code: "SKY",
+    quadratec_code: "Skyjacker",
   },
   {
     jj_prefix: "SB",
     brand_name: "Smittybilt",
-    vendors: "Meyers, Keystone",
+    vendors: "Meyers, Keystone, Smittybilt",
     keystone_code: "S53",
     meyer_code: "SMB",
+    quadratec_code: "Smittybilt",
   },
   {
     jj_prefix: "SFX",
@@ -2047,6 +2241,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "S2P",
     meyer_code: "SXO",
+    quadratec_code: "Spidertrax",
   },
   {
     jj_prefix: "SWS",
@@ -2054,6 +2249,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "SWS",
+    quadratec_code: "SpiderWebShade",
   },
   {
     jj_prefix: "SPB",
@@ -2061,6 +2257,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Sprint Booster",
   },
   {
     jj_prefix: "SPA",
@@ -2075,6 +2272,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Steer Smarts",
   },
   {
     jj_prefix: "SOR",
@@ -2082,6 +2280,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "SGR",
+    quadratec_code: "Stinger Off-Road",
   },
   {
     jj_prefix: "SCP",
@@ -2096,6 +2295,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "S54",
     meyer_code: "SPC",
+    quadratec_code: "Superchips",
   },
   {
     jj_prefix: "SUP",
@@ -2103,6 +2303,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "S30",
     meyer_code: "SPL",
+    quadratec_code: "Superlift",
   },
   {
     jj_prefix: "SWA",
@@ -2117,6 +2318,7 @@ module.exports = [
     vendors: "Keystone, Quadratec",
     keystone_code: "S50",
     meyer_code: "",
+    quadratec_code: "Surco",
   },
   {
     jj_prefix: "SWP",
@@ -2131,6 +2333,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "SYN",
+    quadratec_code: "Synergy Manufacturing",
   },
   {
     jj_prefix: "T",
@@ -2145,13 +2348,15 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "TACTIK",
   },
   {
     jj_prefix: "TR",
     brand_name: "T-Rex",
-    vendors: "Meyers, Keystone",
+    vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "T86",
     meyer_code: "REX",
+    quadratec_code: "T-Rex",
   },
   {
     jj_prefix: "TEC",
@@ -2159,6 +2364,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "TecStyle",
   },
   {
     jj_prefix: "TEK",
@@ -2173,6 +2379,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "TER",
     meyer_code: "TER",
+    quadratec_code: "Teraflex",
   },
   {
     jj_prefix: "THI",
@@ -2187,11 +2394,12 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "T22",
     meyer_code: "THU",
+    quadratec_code: "Thule",
   },
   {
     jj_prefix: "TIM",
     brand_name: "Timbren",
-    vendors: "Meyers, Keystone, Quadratec",
+    vendors: "Meyers, Keystone",
     keystone_code: "T1K",
     meyer_code: "TIM",
   },
@@ -2201,6 +2409,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Tom Woods",
   },
   {
     jj_prefix: "TO",
@@ -2208,6 +2417,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "T43",
     meyer_code: "TOY",
+    quadratec_code: "Toyo Tires",
   },
   {
     jj_prefix: "THC",
@@ -2215,6 +2425,7 @@ module.exports = [
     vendors: "Trail Head Customs",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Trailhead",
   },
   {
     jj_prefix: "TRA",
@@ -2222,6 +2433,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "TRL",
+    quadratec_code: "Trail Master Suspension",
   },
   {
     jj_prefix: "TFX",
@@ -2233,16 +2445,18 @@ module.exports = [
   {
     jj_prefix: "TFS",
     brand_name: "Tuff Stuff 4x4",
-    vendors: "Meyers",
+    vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "TUS",
+    quadratec_code: "Tuff Stuff Performance",
   },
   {
     jj_prefix: "TY",
     brand_name: "Tuffy Products",
-    vendors: "Meyers, Keystone",
+    vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "T60",
     meyer_code: "TFY",
+    quadratec_code: "Tuffy",
   },
   {
     jj_prefix: "TUX",
@@ -2264,6 +2478,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "Under The Sun Inserts",
   },
   {
     jj_prefix: "UWS",
@@ -2282,9 +2497,10 @@ module.exports = [
   {
     jj_prefix: "VDP",
     brand_name: "Vertically Driven Products",
-    vendors: "Meyers, Keystone, Quadratec",
+    vendors: "Meyers, Quadratec",
     keystone_code: "V36",
     meyer_code: "VDP",
+    quadratec_code: "Vertically Driven Products",
   },
   {
     jj_prefix: "VSH",
@@ -2292,6 +2508,7 @@ module.exports = [
     vendors: "Quadratec",
     keystone_code: "",
     meyer_code: "",
+    quadratec_code: "VersaHitch",
   },
   {
     jj_prefix: "VA",
@@ -2299,6 +2516,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "V6H",
     meyer_code: "VIA",
+    quadratec_code: "Viair",
   },
   {
     jj_prefix: "VVL",
@@ -2313,6 +2531,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "V47",
     meyer_code: "VIX",
+    quadratec_code: "Vision X",
   },
   {
     jj_prefix: "W",
@@ -2327,6 +2546,7 @@ module.exports = [
     vendors: "WARN, Meyers, Keystone, Quadratec",
     keystone_code: "W36",
     meyer_code: "WAR",
+    quadratec_code: "WARN",
   },
   {
     jj_prefix: "WA",
@@ -2334,13 +2554,15 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "W45",
     meyer_code: "WRR",
+    quadratec_code: "Warrior Products",
   },
   {
     jj_prefix: "WTC",
     brand_name: "WeatherTech",
-    vendors: "WeatherTech, Keystone",
+    vendors: "WeatherTech, Keystone, Quadratec",
     keystone_code: "W2C",
     meyer_code: "",
+    quadratec_code: "WeatherTech",
   },
   {
     jj_prefix: "WES",
@@ -2348,6 +2570,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "W16",
     meyer_code: "WES",
+    quadratec_code: "Westin",
   },
   {
     jj_prefix: "WOR",
@@ -2369,6 +2592,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "XEN",
+    quadratec_code: "Xenon",
   },
   {
     jj_prefix: "XGC",
@@ -2376,6 +2600,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "XGC",
     meyer_code: "XGC",
+    quadratec_code: "XG Cargo",
   },
   {
     jj_prefix: "Y",
@@ -2397,6 +2622,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "Y11",
     meyer_code: "YUK",
+    quadratec_code: "Yukon Gear & Axle",
   },
   {
     jj_prefix: "Z",
@@ -2411,6 +2637,7 @@ module.exports = [
     vendors: "Meyers, Quadratec",
     keystone_code: "",
     meyer_code: "ZAT",
+    quadratec_code: "Z Automotive",
   },
   {
     jj_prefix: "ZOR",
@@ -2418,6 +2645,7 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "ZOR",
     meyer_code: "ZOR",
+    quadratec_code: "Zone Offroad Products",
   },
   {
     jj_prefix: "ZRD",
@@ -2425,5 +2653,6 @@ module.exports = [
     vendors: "Meyers, Keystone, Quadratec",
     keystone_code: "T86",
     meyer_code: "ZRD",
+    quadratec_code: "ZROADZ",
   },
 ];

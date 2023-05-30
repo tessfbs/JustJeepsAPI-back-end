@@ -118,7 +118,7 @@ const allKeystoneSeeds = async (numParts) => {
     for (let i = 1; i <= numParts; i++) {
       await seedKeystoneVendorProducts(i, numParts); // Call seedKeystoneVendorProducts() for each part sequentially and wait for it to resolve before moving to the next iteration
     }
-    await delay(6000);
+    await delay(4000);
     
     console.timeEnd("all keystone api calls"); // End the timer for all keystone api calls
     console.log("All API calls completed."); // Log a message indicating that all API calls are completed
@@ -130,5 +130,5 @@ const allKeystoneSeeds = async (numParts) => {
 
 module.exports = allKeystoneSeeds;
 
-allKeystoneSeeds(2000);
+allKeystoneSeeds(200);
 

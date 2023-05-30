@@ -55,6 +55,12 @@ const seedAllProducts = async () => {
           : "";
       console.log("quadratecCode", quadratecCode);
 
+      // Generate gentecdirect_code based on vendor data
+      const gentecdirectCode =
+        vendorData && vendorData.gentecdirect_code
+          ? vendorData.gentecdirect_code + searchable_sku
+          : "";
+
       //Generate brand_name based on vendor data
       const brandName = vendorData ? vendorData.brand_name : "";
 
@@ -106,6 +112,7 @@ const seedAllProducts = async () => {
             meyer_code: meyerCode,
             keystone_code: keystoneCode,
             quadratec_code: quadratecCode,
+            // gentecdirectCode: gentecdirect_code,
             omix_code:
               jjPrefix === "OA" || jjPrefix === "ALY" || jjPrefix === "RR"
                 ? searchable_sku
@@ -141,6 +148,7 @@ const seedAllProducts = async () => {
             meyer_code: meyerCode,
             keystone_code: keystoneCode,
             quadratec_code: quadratecCode,
+            // gentecdirectCode: gentecdirect_code,
             omix_code:
               jjPrefix === "OA" || jjPrefix === "ALY" || jjPrefix === "RR"
                 ? searchable_sku

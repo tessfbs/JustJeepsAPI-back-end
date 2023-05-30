@@ -13,6 +13,8 @@
     "seed-allProducts": "node prisma/seeds/seed-individual/seed-allProducts.js",
     "seed-meyer": "node prisma/seeds/seed-individual/seed-meyer.js",
     "seed-keystone": "node prisma/seeds/seed-individual/seed-keystone.js",
+    "seed-orders": "node prisma/seeds/seed-individual/seed-orders.js",
+    "seed-northridge": "node prisma/seeds/seed-individual/seed-northridge.js",
     "dev": "./node_modules/.bin/nodemon -L --ignore public/ server.js"
   },
   "repository": {

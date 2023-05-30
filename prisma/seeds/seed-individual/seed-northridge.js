@@ -92,4 +92,4 @@ async function seedCompetitorProducts() {
 }
 
 module.exports = seedCompetitorProducts;
-// seedCompetitorProducts();
+seedCompetitorProducts();

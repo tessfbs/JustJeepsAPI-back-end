@@ -72,4 +72,4 @@ const seedOrders = async () => {
 };
 module.exports = seedOrders;
 
-// seedOrders();
+seedOrders();

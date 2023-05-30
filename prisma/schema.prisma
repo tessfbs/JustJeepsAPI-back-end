@@ -62,6 +62,7 @@ model Product {
   keystone_code      String?
   omix_code          String?
   quadratec_code     String?
+  gentecdirect_code  String?
   rough_country_code String?
   vendors            String?
   brand_name         String?
