@@ -241,7 +241,7 @@ app.get('/api/orders', async (req, res) => {
     res.json(orders);
   } catch (error) {
     res.status(500).json({
-      error: 'Failed to fetch orders'
+      error: `${error} Failed to fetch orders`
     });
   }
 });
