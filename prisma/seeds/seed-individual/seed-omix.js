@@ -94,5 +94,5 @@ const seedOmix = async () => {
   }
 };
 
-// seedOmix();
+seedOmix();
 module.exports = seedOmix;

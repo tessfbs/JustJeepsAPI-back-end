@@ -4,7 +4,7 @@ const path = require("path");
 const omixCost = () => {
   // Step 1: Load Excel file
   // Construct the absolute file path using __dirname and the file name
-  const filePath = path.join(__dirname, "omix-excel.xlsx");
+  const filePath = path.join(__dirname, "omix-excel.xls");
 
   // Read the file using the updated file path
   const workbook = XLSX.readFile(filePath);

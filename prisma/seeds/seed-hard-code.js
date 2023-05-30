@@ -33,11 +33,11 @@ const allseeds = async () => {
     await seedAllProducts();
     console.timeEnd("seedAllProducts");
 
-    console.log("Seeding orders...");
-    await seedOrders();
+    // console.log("Seeding orders...");
+    // await seedOrders();
 
-    console.log("Seeding Omix...");
-    await seedOmix();
+    // console.log("Seeding Omix...");
+    // await seedOmix();
 
     console.log("Seeding Meyer...");
     await seedMeyer();
@@ -45,8 +45,8 @@ const allseeds = async () => {
     console.log("Seeding Keystone...");
     await seedKeystone();
 
-    console.log("Seeding Northridge Competition...");
-    await seedNorthridge();
+    // console.log("Seeding Northridge Competition...");
+    // await seedNorthridge();
 
     console.timeEnd("allseeds"); // End the timer for allseeds
     console.log("All seeds complete");
