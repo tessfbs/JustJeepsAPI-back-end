@@ -113,7 +113,7 @@ const KeystoneCost = async (callNumber, numParts) => {
     }
 
     // Delay for 1 second between each API request to avoid rate limiting or IP blocking
-    await delay(2000);
+    await delay(1000);
   };
   // console.log(allItems);
   return allItems;
@@ -175,7 +175,7 @@ const CheckInventory = async (callNumber, numParts) => {
     } catch (error) {
       console.log(error.code);
     }
-    await delay(2000);
+    await delay(1000);
   }
 
   // console.log("Results: ", results);

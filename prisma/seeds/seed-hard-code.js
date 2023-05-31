@@ -30,8 +30,8 @@ const allseeds = async () => {
 
     console.time("seedAllProducts");
     console.log("Seeding all products...");
-    await seedAllProducts();
-    console.timeEnd("seedAllProducts");
+    // await seedAllProducts();
+    // console.timeEnd("seedAllProducts");
 
     // console.log("Seeding orders...");
     // await seedOrders();
