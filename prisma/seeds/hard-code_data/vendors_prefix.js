@@ -89,7 +89,7 @@ module.exports = [
   {
     jj_prefix: "ALY",
     brand_name: "Alloy USA",
-    vendors: "Omix-ADA",
+    vendors: "Omix-ADA, Quadratec",
     keystone_code: "",
     meyer_code: "",
     quadratec_code: "Alloy USA",
@@ -2130,7 +2130,7 @@ module.exports = [
   {
     jj_prefix: "RR",
     brand_name: "Rugged Ridge",
-    vendors: "Omix-ADA",
+    vendors: "Omix-ADA, Quadratec",
     keystone_code: "",
     meyer_code: "",
     quadratec_code: "Rugged Ridge",
