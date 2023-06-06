@@ -73,11 +73,11 @@ const MeyerCost = async () => {
           responses.push(null); // Push null for error responses
         }
         // Add a delay of 5 seconds between API requests
-        await new Promise((resolve) => setTimeout(resolve, 1500));
+        await new Promise((resolve) => setTimeout(resolve, 1000));
       }
       console.log(`Chunk ${chunkIndex} completed.`);
       // Add a delay of 60 seconds before calling the next chunk
-      await new Promise((resolve) => setTimeout(resolve, 10000));
+      await new Promise((resolve) => setTimeout(resolve, 5000));
 
       return responses;
     };
